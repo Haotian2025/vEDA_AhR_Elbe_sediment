@@ -42,3 +42,14 @@ tidyr 1.3.1
 dplyr 1.1.4
 ggplot2 3.5.2
 UpsetR 1.4.0
+
+Here we provided an example of using the trained machine learning (ML) models. Please see the Example.ipynb in ‘Example of using ML models’ folder.
+
+•	Retrieve 3D SDF from the PubChem database using the CID number.
+
+•	Calculate the molecular descriptor
+
+•	Predict their AhR activity (1: active; 0: inactive)
+
+•	Predict their log (EC10 values (μM)) values
+
