@@ -5,10 +5,15 @@ This file contains two pipelines: (A) Machine learning models and (B) Suspect sc
 (A)	Machine learning models
 A binary classification model was trained to distinguish AhR agonists from inactive molecular structures, and a regression model was trained to predict the effect concentration (EC10) of these agonists.
 The workflow includes:
+
 (1)	Data curation for training dataset and unseen dataset from our in-house data
+
 (2)	Molecular descriptor calculation
+
 (3)	Classification model training
+
 (4)	Regression model training
+
 (5)	Prediction for molecular structures
 
 The inputs and outputs for the pipeline calculation are available in the Zenodo database under DOI: 10.5281/zenodo.17791247.
@@ -26,12 +31,19 @@ pubchempy 1.0.5
 (B)	Suspect screening analysis
 A suspect screening analysis workflow was established to identify AhR agonists from GC-HRMS data.
 The workflow includes:
-(1)	Peak picking and deconvolution by MS-DIAL software, 
+
+(1)	Peak picking and deconvolution by MS-DIAL software
+
 (2)	Pre-filter GC-HRMS features
+
 (3)	Mass spectra reference library matching
+
 (4)	AhR activation prediction and EC10 value prediction for molecular structure candidates
+
 (5)	Identification of filtered features 
+
 (6)	Alignment
+
 
 The inputs and outputs for the pipeline calculation are available in the Zenodo database under DOI: 10.5281/zenodo.17791247.
 
