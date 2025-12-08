@@ -1,6 +1,7 @@
 # vEDA_AhR_Elbe_sediment
 
 This file contains two pipelines: (A) Machine learning models and (B) Suspect screening analysis.
+
 (A)	Machine learning models
 A binary classification model was trained to distinguish AhR agonists from inactive molecular structures, and a regression model was trained to predict the effect concentration (EC10) of these agonists.
 The workflow includes:
@@ -9,7 +10,9 @@ The workflow includes:
 (3)	Classification model training
 (4)	Regression model training
 (5)	Prediction for molecular structures
+
 The inputs and outputs for the pipeline calculation are available in the Zenodo database under DOI: 10.5281/zenodo.17791247.
+
 Dependencies:
 Python version (3.12.12)
 numpy, 1.26.4
@@ -29,7 +32,9 @@ The workflow includes:
 (4)	AhR activation prediction and EC10 value prediction for molecular structure candidates
 (5)	Identification of filtered features 
 (6)	Alignment
+
 The inputs and outputs for the pipeline calculation are available in the Zenodo database under DOI: 10.5281/zenodo.17791247.
+
 Dependencies:
 R version (4.4.3)
 mssearchr 0.2.0
